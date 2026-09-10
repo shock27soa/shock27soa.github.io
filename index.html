@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>迈克尔杰克逊的歌-经典歌曲推荐与聆听入门指南</title>
+<meta name="description" content="迈克尔杰克逊的歌涵盖流行、摇滚、放克与灵魂乐等多种风格。本页整理他不同时期的代表歌曲、专辑脉络、聆听顺序建议与常见问题，帮助初次接触或重温迈克尔杰克逊歌曲的听众快速找到方向。">
+<meta name="keywords" content="迈克尔杰克逊的歌,迈克尔杰克逊歌曲,迈克尔杰克逊经典歌曲,迈克尔杰克逊专辑,流行音乐">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+  :root{
+    --ink:#141118;
+    --ink-soft:#3c3546;
+    --muted:#6f6879;
+    --line:#e6e1ec;
+    --bg:#f7f5fa;
+    --panel:#ffffff;
+    --gold:#c9a227;
+    --gold-soft:#f4e9c4;
+    --violet:#3b2a5c;
+    --violet-soft:#efeaf8;
+    --radius:14px;
+    --shadow:0 10px 30px rgba(30,20,50,.08);
+    --maxw:1180px;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.75;
+    font-size:16px;
+  }
+  a{color:inherit;text-decoration:none;}
+  a:hover{color:var(--violet);}
+  img{max-width:100%;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+
+  /* ---------- header ---------- */
+  .site-header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(20,17,24,.94);
+    backdrop-filter:blur(8px);
+    color:#fff;
+    border-bottom:1px solid rgba(255,255,255,.08);
+  }
+  .header-inner{
+    display:flex;align-items:center;justify-content:space-between;
+    gap:18px;min-height:64px;
+  }
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.5px;}
+  .brand-mark{
+    width:34px;height:34px;border-radius:50%;
+    background:linear-gradient(135deg,var(--gold),#8a6d10);
+    display:flex;align-items:center;justify-content:center;
+    font-size:15px;color:#1a1420;font-weight:800;
+  }
+  .brand-text{font-size:17px;}
+  .brand-text small{display:block;font-size:11px;font-weight:400;color:#b9b2c6;letter-spacing:1px;}
+  .nav{display:flex;flex-wrap:wrap;gap:4px;}
+  .nav a{
+    padding:8px 12px;border-radius:8px;font-size:14px;color:#d9d4e3;
+    transition:.2s;
+  }
+  .nav a:hover{background:rgba(255,255,255,.1);color:#fff;}
+
+  /* ---------- hero ---------- */
+  .hero{
+    background:
+      radial-gradient(900px 420px at 12% -10%, rgba(201,162,39,.22), transparent 62%),
+      radial-gradient(700px 380px at 92% 8%, rgba(120,90,200,.28), transparent 60%),
+      linear-gradient(160deg,#1d1630 0%,#2a1f45 48%,#160f24 100%);
+    color:#f3eff9;
+    padding:64px 0 56px;
+    border-bottom:1px solid rgba(255,255,255,.06);
+  }
+  .hero-grid{
+    display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);
+    gap:40px;align-items:center;
+  }
+  .eyebrow{
+    display:inline-block;font-size:12px;letter-spacing:2px;
+    color:var(--gold);border:1px solid rgba(201,162,39,.5);
+    border-radius:999px;padding:4px 12px;margin-bottom:18px;
+  }
+  .hero h1{
+    font-size:clamp(28px,4vw,44px);
+    line-height:1.25;margin:0 0 16px;font-weight:800;letter-spacing:.5px;
+  }
+  .hero h1 em{font-style:normal;color:var(--gold);}
+  .hero p.lead{
+    font-size:16px;color:#cdc6dd;margin:0 0 26px;max-width:56ch;
+  }
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px;}
+  .btn{
+    display:inline-block;padding:12px 22px;border-radius:999px;
+    font-size:15px;font-weight:600;transition:.22s;border:1px solid transparent;
+  }
+  .btn-primary{background:var(--gold);color:#221a08;}
+  .btn-primary:hover{background:#dcb63a;color:#221a08;}
+  .btn-ghost{border-color:rgba(255,255,255,.35);color:#f0ecf8;}
+  .btn-ghost:hover{background:rgba(255,255,255,.12);color:#fff;}
+
+  .hero-card{
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.14);
+    border-radius:var(--radius);
+    padding:22px 22px 18px;
+  }
+  .hero-card h2{
+    font-size:14px;letter-spacing:1px;color:var(--gold);
+    margin:0 0 14px;font-weight:700;
+  }
+  .hero-card ol{margin:0;padding-left:20px;color:#ded8ec;font-size:14.5px;}
+  .hero-card li{margin-bottom:9px;}
+  .hero-card li span{color:#a79fbb;font-size:13px;}
+
+  /* ---------- section base ---------- */
+  section{padding:56px 0;}
+  .section-head{margin-bottom:28px;}
+  .section-head h2{
+    font-size:clamp(21px,2.6vw,28px);margin:0 0 10px;font-weight:800;
+    letter-spacing:.4px;
+  }
+  .section-head h2::after{
+    content:"";display:block;width:52px;height:3px;border-radius:2px;
+    background:var(--gold);margin-top:12px;
+  }
+  .section-head p{margin:14px 0 0;color:var(--muted);max-width:70ch;font-size:15px;}
+
+  .alt{background:#fff;}
+
+  /* ---------- intro ---------- */
+  .intro-grid{
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;
+  }
+  .intro-card{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:22px;box-shadow:var(--shadow);
+  }
+  .intro-card h3{margin:0 0 10px;font-size:17px;}
+  .intro-card p{margin:0;font-size:14.5px;color:var(--ink-soft);}
+
+  /* ---------- era timeline ---------- */
+  .timeline{position:relative;padding-left:26px;}
+  .timeline::before{
+    content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;
+    background:linear-gradient(180deg,var(--gold),rgba(201,162,39,.15));
+  }
+  .tl-item{position:relative;padding:0 0 26px 0;}
+  .tl-item::before{
+    content:"";position:absolute;left:-26px;top:7px;width:14px;height:14px;
+    border-radius:50%;background:#fff;border:3px solid var(--gold);
+  }
+  .tl-item:last-child{padding-bottom:0;}
+  .tl-era{font-size:12px;letter-spacing:1.5px;color:var(--gold);font-weight:700;}
+  .tl-item h3{margin:4px 0 8px;font-size:18px;}
+  .tl-item p{margin:0;color:var(--ink-soft);font-size:14.5px;max-width:78ch;}
+
+  /* ---------- song cards ---------- */
+  .song-grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;
+  }
+  .song-card{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:20px;display:flex;flex-direction:column;gap:10px;
+    transition:.22s;box-shadow:0 2px 10px rgba(30,20,50,.04);
+  }
+  .song-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:#d8cfe6;}
+  .song-tag{
+    align-self:flex-start;font-size:11.5px;letter-spacing:1px;
+    background:var(--violet-soft);color:var(--violet);
+    padding:3px 9px;border-radius:999px;font-weight:600;
+  }
+  .song-card h3{margin:0;font-size:17px;line-height:1.4;}
+  .song-card .album{font-size:12.5px;color:var(--muted);}
+  .song-card p{margin:0;font-size:14px;color:var(--ink-soft);}
+
+  /* ---------- listening guide ---------- */
+  .guide-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:34px;align-items:start;}
+  .steps{counter-reset:step;margin:0;padding:0;list-style:none;}
+  .steps li{
+    position:relative;padding:0 0 22px 46px;counter-increment:step;
+  }
+  .steps li::before{
+    content:counter(step);
+    position:absolute;left:0;top:0;
+    width:30px;height:30px;border-radius:50%;
+    background:var(--violet);color:#fff;font-size:14px;font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .steps li h3{margin:2px 0 6px;font-size:16.5px;}
+  .steps li p{margin:0;font-size:14.5px;color:var(--ink-soft);}
+  .side-note{
+    background:var(--violet-soft);border:1px solid #ddd2f0;border-radius:var(--radius);
+    padding:22px;
+  }
+  .side-note h3{margin:0 0 12px;font-size:16px;color:var(--violet);}
+  .side-note ul{margin:0;padding-left:20px;font-size:14.5px;color:var(--ink-soft);}
+  .side-note li{margin-bottom:9px;}
+
+  /* ---------- FAQ ---------- */
+  .faq{max-width:900px;}
+  .faq details{
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:16px 20px;margin-bottom:12px;
+  }
+  .faq details[open]{border-color:#d5c9e8;box-shadow:0 4px 16px rgba(60,40,100,.07);}
+  .faq summary{
+    cursor:pointer;font-weight:700;font-size:15.5px;list-style:none;
+    display:flex;justify-content:space-between;gap:14px;align-items:center;
+  }
+  .faq summary::-webkit-details-marker{display:none;}
+  .faq summary::after{
+    content:"+";color:var(--gold);font-size:20px;font-weight:700;line-height:1;
+  }
+  .faq details[open] summary::after{content:"–";}
+  .faq details p{margin:12px 0 0;font-size:14.5px;color:var(--ink-soft);}
+
+  /* ---------- footer ---------- */
+  .site-footer{
+    background:#141118;color:#a79fbb;padding:44px 0 28px;font-size:14px;
+    border-top:1px solid rgba(255,255,255,.07);
+  }
+  .footer-grid{
+    display:grid;grid-template-columns:minmax(0,1.4fr) repeat(2,minmax(0,1fr));
+    gap:30px;margin-bottom:28px;
+  }
+  .site-footer h4{color:#f0ecf8;font-size:15px;margin:0 0 12px;}
+  .site-footer p{margin:0 0 10px;line-height:1.8;}
+  .site-footer ul{list-style:none;margin:0;padding:0;}
+  .site-footer li{margin-bottom:8px;}
+  .site-footer a{color:#b7afc8;}
+  .site-footer a:hover{color:var(--gold);}
+  .footer-bottom{
+    border-top:1px solid rgba(255,255,255,.08);padding-top:18px;
+    font-size:13px;color:#7d768c;
+  }
+
+  /* ---------- responsive ---------- */
+  @media (max-width:980px){
+    .hero-grid{grid-template-columns:1fr;gap:30px;}
+    .intro-grid{grid-template-columns:1fr 1fr;}
+    .guide-grid{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:680px){
+    body{font-size:15.5px;}
+    .header-inner{flex-direction:column;align-items:flex-start;padding:12px 0;gap:10px;}
+    .nav{gap:2px;}
+    .nav a{padding:6px 9px;font-size:13.5px;}
+    .hero{padding:44px 0 40px;}
+    section{padding:42px 0;}
+    .intro-grid{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr;}
+    .song-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <span class="brand-mark">MJ</span>
+      <span class="brand-text">迈克尔杰克逊的歌
+        <small>经典歌曲 · 聆听指南</small>
+      </span>
+    </div>
+    <nav class="nav" aria-label="主导航">
+      <a href="#intro">概览</a>
+      <a href="#eras">时期脉络</a>
+      <a href="#songs">代表歌曲</a>
+      <a href="#guide">聆听顺序</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">POP · SOUL · FUNK · ROCK</span>
+        <h1 id="hero-title">迈克尔杰克逊的歌：<em>从童星到流行之王的聆听地图</em></h1>
+        <p class="lead">
+          迈克尔·杰克逊（Michael Jackson）的歌曲横跨半个多世纪，从杰克逊五兄弟时期的灵歌，到《Thriller》《Bad》《Dangerous》等专辑塑造的流行音乐样貌。本页围绕“迈克尔杰克逊的歌”这一主题，梳理不同时期的代表作品、风格变化与聆听顺序，帮助初次接触的听众建立清晰的入门路径，也方便老听众按脉络重温。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#songs">查看代表歌曲</a>
+          <a class="btn btn-ghost" href="#guide">按顺序聆听</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="快速入门清单">
+        <h2>初次聆听可以先听这几首</h2>
+        <ol>
+          <li>Billie Jean <span>— 节奏与编曲的教科书</span></li>
+          <li>Beat It <span>— 摇滚与流行的交叉点</span></li>
+          <li>Thriller <span>— 主题化叙事与音乐短片</span></li>
+          <li>Man in the Mirror <span>— 抒情与社会关怀</span></li>
+          <li>Black or White <span>— 九十年代风格转向</span></li>
+        </ol>
+      </aside>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section id="intro" aria-labelledby="intro-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="intro-title">他的歌为什么值得系统听一遍</h2>
+        <p>很多人对迈克尔·杰克逊的印象来自舞台与音乐短片，但真正支撑其影响力的，是歌曲本身在旋律、节奏、和声与制作上的完成度。按时期听，会比随机听单曲更容易理解他的变化。</p>
+      </div>
+      <div class="intro-grid">
+        <article class="intro-card">
+          <h3>风格跨度大</h3>
+          <p>他的作品同时吸收了灵魂乐、放克、迪斯科、摇滚、福音与后来的新杰克摇摆、嘻哈元素。同一张专辑里常常出现气质完全不同的曲目，因此按专辑整体听，比只听热门单曲更能感受到编排意图。</p>
+        </article>
+        <article class="intro-card">
+          <h3>制作与编曲讲究</h3>
+          <p>从《Off the Wall》开始，他与制作人 Quincy Jones 的合作让流行歌曲的层次感明显提升：贝斯线、鼓组、弦乐与人声叠录被安排得十分精细，很多细节需要戴耳机反复听才会注意到。</p>
+        </article>
+        <article class="intro-card">
+          <h3>歌曲与影像互相成就</h3>
+          <p>他的多支音乐短片让歌曲获得了额外的叙事维度。先听歌、再看影像，往往能发现编曲中为画面预留的段落与情绪起伏，这也是他作品常被反复讨论的原因之一。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ERAS -->
+  <section id="eras" class="alt" aria-labelledby="eras-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="eras-title">按时期理解迈克尔杰克逊的歌</h2>
+        <p>把作品放进时间线里，能更清楚地看到他的声音如何一步步变化。以下划分以常见的专辑阶段为参考，便于建立整体印象。</p>
+      </div>
+
+      <div class="timeline">
+        <article class="tl-item">
+          <div class="tl-era">1960s — 1970s 初</div>
+          <h3>杰克逊五兄弟时期：灵歌与摩城风格</h3>
+          <p>这一阶段的歌曲以摩城唱片（Motown）的流行灵魂乐为主，旋律直白、节奏明快，主唱声线清亮。像 I Want You Back、ABC 等作品至今仍被视为流行灵魂乐的范本，也是理解他演唱根基的起点。</p>
+        </article>
+
+        <article class="tl-item">
+          <div class="tl-era">1979</div>
+          <h3>《Off the Wall》：个人风格的确立</h3>
+          <p>这张专辑把迪斯科、放克与灵魂乐融合在一起，Don't Stop 'Til You Get Enough、Rock with You 等曲目展示了他对节奏律动的掌控。相比童星时期，演唱更成熟，编曲也更注重舞曲的层次。</p>
+        </article>
+
+        <article class="tl-item">
+          <div class="tl-era">1982</div>
+          <h3>《Thriller》：流行音乐的标杆</h3>
+          <p>Billie Jean、Beat It、Thriller、Wanna Be Startin' Somethin' 等曲目覆盖了放克、摇滚与主题化叙事。这张专辑常被讨论的原因，在于它把多种风格整合进同一套制作语言里，同时兼顾了电台传播与音乐短片表达。</p>
+        </article>
+
+        <article class="tl-item">
+          <div class="tl-era">1987 — 1991</div>
+          <h3>《Bad》与《Dangerous》：转向更硬的节奏</h3>
+          <p>《Bad》延续了摇滚与放克的结合，The Way You Make Me Feel、Smooth Criminal 等作品在节奏设计上更为凌厉。《Dangerous》则引入新杰克摇摆与嘻哈制作思路，Black or White、Remember the Time 体现了这一时期的风格更新。</p>
+        </article>
+
+        <article class="tl-item">
+          <div class="tl-era">1995 及之后</div>
+          <h3>《HIStory》与后期作品：回顾与再融合</h3>
+          <p>这一阶段的歌曲常在抒情与社会议题之间切换，You Are Not Alone、Earth Song 等作品带有明显的情绪表达。整体上，后期作品更强调个人视角与主题性，编曲也更为宏大。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SONGS -->
+  <section id="songs" aria-labelledby="songs-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="songs-title">常被提及的代表歌曲</h2>
+        <p>以下按风格与听感分类整理，方便按兴趣挑选。每首歌的说明侧重可感知的音乐特征，而非评价高低。</p>
+      </div>
+
+      <div class="song-grid">
+        <article class="song-card">
+          <span class="song-tag">节奏舞曲</span>
+          <h3>Billie Jean</h3>
+          <div class="album">专辑《Thriller》</div>
+          <p>标志性的贝斯线与鼓点构筑了整首歌的骨架，人声在克制与张力之间游走。常被用作讲解流行歌曲编曲结构的例子。</p>
+        </article>
+
+        <article class="song-card">
+          <span class="song-tag">摇滚融合</span>
+          <h3>Beat It</h3>
+          <div class="album">专辑《Thriller》</div>
+          <p>吉他独奏与强烈的节奏推进，让这首歌成为流行与摇滚交汇的代表。整体结构紧凑，段落对比明显。</p>
+        </article>
+
+        <article class="song-card">
+          <span class="song-tag">主题叙事</span>
+          <h3>Thriller</h3>
+          <div class="album">专辑《Thriller》</div>
+          <p>以恐怖片氛围为灵感，加入旁白与音效设计。歌曲与同名音乐短片共同构成了一个完整的叙事体验。</p>
+        </article>
+
+        <article class="song-card">
+          <span class="song-tag">放克</span>
+          <h3>Don't Stop 'Til You Get Enough</h3>
+          <div class="album">专辑《Off the Wall》</div>
+          <p>迪斯科与放克交织，律动轻快。这是他在个人阶段早期展现节奏掌控力的重要作品。</p>
+        </article>
+
+        <article class="song-card">
+          <span class="song-tag">抒情</span>
+          <h3>Man in the Mirror</h3>
+          <div class="album">专辑《Bad》</div>
+          <p>福音风格的合唱段落层层推进，情绪由内省逐步走向开阔，是常被用于现场演绎的曲目。</p>
+        </article>
+
+        <article class="song-card">
+          <span class="song-tag">节奏舞曲</span>
+          <h3>Smooth Criminal</h3>
+          <div class="album">专辑《Bad》</div>
+          <p>节奏切分明显，歌词带有叙事性。歌曲与舞台表演的结合，使它成为辨识度很高的作品。</p>
+        </article>
+
+        <article class="song-card">
+          <span class="song-tag">社会议题</span>
+          <h3>Black or White</h3>
+          <div class="album">专辑《Dangerous》</div>
+          <p>以摇滚吉他为切入，主题围绕平等与包容展开，体现了九十年代他在题材上的拓展。</p>
+        </article>
+
+        <article class="song-card">
+          <span class="song-tag">抒情</span>
+          <h3>You Are Not Alone</h3>
+          <div class="album">专辑《HIStory》</div>
+          <p>旋律舒缓，编曲以人声与和声为主，整体氛围温暖，是后期作品中流传较广的一首。</p>
+        </article>
+
+        <article class="song-card">
+          <span class="song-tag">主题叙事</span>
+          <h3>Earth Song</h3>
+          <div class="album">专辑《HIStory》</div>
+          <p>以环境与生命为主题，情绪层层累积，副歌部分具有很强的爆发力，属于主题性较强的作品。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GUIDE -->
+  <section id="guide" class="alt" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="guide-title">给不同听众的聆听顺序建议</h2>
+        <p>与其随机点开歌单，不如按一条相对清晰的路径推进。下面的顺序适合大多数初次系统接触他作品的听众。</p>
+      </div>
+
+      <div class="guide-grid">
+        <ol class="steps">
+          <li>
+            <h3>先听热门单曲，建立熟悉感</h3>
+            <p>从 Billie Jean、Beat It、Thriller 开始，这几首结构清晰、辨识度高，容易在短时间内形成整体印象。</p>
+          </li>
+          <li>
+            <h3>再按专辑完整听一遍</h3>
+            <p>选择《Thriller》或《Off the Wall》完整播放。专辑曲序通常经过安排，连续听能感受到曲目之间的节奏对比与情绪过渡。</p>
+          </li>
+          <li>
+            <h3>扩展到中期作品</h3>
+            <p>接着听《Bad》与《Dangerous》，留意节奏编排与制作手法的变化，尤其是打击乐与合成器的使用方式。</p>
+          </li>
+          <li>
+            <h3>补充抒情与主题性作品</h3>
+            <p>Man in the Mirror、Earth Song、You Are Not Alone 等曲目适合单独抽出来细听，关注歌词表达与和声层次。</p>
+          </li>
+          <li>
+            <h3>回看音乐短片与现场</h3>
+            <p>在熟悉歌曲之后再看对应的音乐短片或现场演出，会更容易发现编曲中为画面与舞蹈预留的空间。</p>
+          </li>
+        </ol>
+
+        <aside class="side-note">
+          <h3>聆听时值得留意的地方</h3>
+          <ul>
+            <li><strong>贝斯线：</strong>很多作品的律动核心在低音声部，用耳机听会更明显。</li>
+            <li><strong>人声叠录：</strong>主唱与和声的层次常常承担了“第二旋律”的作用。</li>
+            <li><strong>段落对比：</strong>主歌、预副歌与副歌之间常有明显的力度变化。</li>
+            <li><strong>版本差异：</strong>专辑版与单曲版、现场版在编曲和时长上可能不同，注意区分。</li>
+            <li><strong>音源质量：</strong>尽量选择正规平台，避免因压缩过度影响细节。</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="faq-title">常见问题</h2>
+        <p>以下问题来自听众在接触迈克尔·杰克逊歌曲时较常提出的疑问，回答以可确认的公开信息为基础。</p>
+      </div>
+
+      <div class="faq">
+        <details open>
+          <summary>第一次听迈克尔·杰克逊的歌，应该从哪首开始？</summary>
+          <p>可以先从《Thriller》专辑中的 Billie Jean、Beat It 入手，这两首结构清晰、辨识度高。如果更喜欢节奏感强的作品，可以再听 Don't Stop 'Til You Get Enough；如果偏好抒情，可以试 Man in the Mirror。</p>
+        </details>
+
+        <details>
+          <summary>他的歌曲主要属于什么风格？</summary>
+          <p>很难用单一风格概括。他的作品融合了灵魂乐、放克、迪斯科、摇滚、福音以及后来的新杰克摇摆和嘻哈元素。不同专辑的侧重不同，因此按专辑听比按风格标签听更接近实际。</p>
+        </details>
+
+        <details>
+          <summary>专辑版和音乐短片里的版本一样吗？</summary>
+          <p>不一定。部分歌曲的音乐短片会使用重新剪辑或加长的版本，加入旁白、音效或额外段落。若想完整了解歌曲结构，建议先听专辑版本，再看短片版本。</p>
+        </details>
+
+        <details>
+          <summary>在哪里可以听到这些歌曲？</summary>
+          <p>通常可以通过正规的音乐流媒体平台或购买实体、数字专辑收听。不同地区可用的平台和曲目范围可能不同，建议以当地可访问的正规渠道为准。</p>
+        </details>
+
+        <details>
+          <summary>为什么他的歌曲至今仍被频繁讨论？</summary>
+          <p>一方面是因为编曲与制作水准较高，细节丰富，适合反复聆听；另一方面，歌曲与音乐短片、舞台表演共同构成了完整的表达方式，使其影响力超出了单纯的音频范畴。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>关于本页</h4>
+        <p>本页围绕“迈克尔杰克逊的歌”整理歌曲脉络、代表作品与聆听建议，内容以帮助听众建立入门路径为目的，不提供音源下载。</p>
+        <p>文中提到的专辑名称与歌曲名称均为便于识别而使用，相关权利归各自权利人所有。</p>
+      </div>
+      <div>
+        <h4>页面导航</h4>
+        <ul>
+          <li><a href="#intro">歌曲概览</a></li>
+          <li><a href="#eras">时期脉络</a></li>
+          <li><a href="#songs">代表歌曲</a></li>
+          <li><a href="#guide">聆听顺序</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>收听提示</h4>
+        <ul>
+          <li>优先选择正规平台收听</li>
+          <li>注意区分专辑版与短片版</li>
+          <li>使用耳机可听到更多编曲细节</li>
+          <li>按专辑完整播放体验更佳</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>迈克尔杰克逊的歌 · 经典歌曲聆听指南</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // 平滑滚动与导航高亮
+  (function () {
+    var links = document.querySelectorAll('.nav a[href^="#"]');
+    links.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var id = link.getAttribute('href').slice(1);
+        var target = document.getElementById(id);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // FAQ 手风琴：同一时间只展开一项
+    var items = document.querySelectorAll('.faq details');
+    items.forEach(function (item) {
+      item.addEventListener('toggle', function () {
+        if (item.open) {
+          items.forEach(function (other) {
+            if (other !== item) { other.open = false; }
+          });
+        }
+      });
+    });
+  })();
+</script>
+
+</body>
+  </html>
